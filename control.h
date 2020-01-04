@@ -9,10 +9,10 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define SHM_KEY 24601
-#define SEM_KEY 24602
-#define SEG_SIZE 500
-#define FILE_NAME "semaphone.txt"
+#define SHM_KEY 24602
+#define SEM_KEY 11280
+#define SEG_SIZE 200
+#define FILE_NAME "semaphone"
 
 union semun {
     int val;
