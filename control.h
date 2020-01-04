@@ -1,4 +1,4 @@
-#include <stdlib.h>
+3#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include <sys/ipc.h>
@@ -9,8 +9,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define SHM_KEY 24602
-#define SEM_KEY 11280
+#define SHM_KEY 24601
+#define SEM_KEY 24602
 #define SEG_SIZE 200
 #define FILE_NAME "semaphone"
 
